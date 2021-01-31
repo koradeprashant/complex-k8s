@@ -17,7 +17,7 @@ after_success:
   # Log in to Docker CLI
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   # push the images to docker hub
-  - docker push pash04/mutli-client
-  - docker push pash04/mutli-server
-  - docker push pash04/mutli-nginx
-  - docker push pash04/mutli-worker
+  - docker push pash04/multi-client
+  - docker push pash04/multi-server
+  - docker push pash04/multi-nginx
+  - docker push pash04/multi-worker
