@@ -26,9 +26,9 @@ services:
     environment: 
       - REDIS_HOST=redis
       - REDIS_PORT=6379
-      - PGUSER=posgres
-      - PGHOST=posgres
-      - PGDATABASE=posgres
+      - PGUSER=postgres
+      - PGHOST=postgres
+      - PGDATABASE=postgres
       - PGPASSWORD=test
       - PGPORT=5432
   client:
