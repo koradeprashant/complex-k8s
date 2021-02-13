@@ -23,6 +23,7 @@ after_success:
   - docker push pash04/multi-worker
 
 deploy:
+  provider: elasticbeanstalk
   region: "ap-south-1"
   app: "multi-docker"
   env: Multidocker-env
